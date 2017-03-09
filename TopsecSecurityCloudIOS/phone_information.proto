@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message PhoneInformationRequest{
+ string phoneType = 1;
+ int32  phoneVersion = 2;
+ string longItude =3 ;
+ string latItude =4 ;
+ string requestTime =5 ;
+ 
+ bytes binaryPortInfor = 6;
+
+}

@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BB509A5AC3BB19428B3D7CE8B1377B5BF7C337CD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "de263d80-b747-40a5-82ab-79ab73532f30++587" : {
+
+    },
+    "C3E26F795A108840008E1B6978A98FE3109D3108" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BB509A5AC3BB19428B3D7CE8B1377B5BF7C337CD" : 0,
+    "de263d80-b747-40a5-82ab-79ab73532f30++587" : 0,
+    "C3E26F795A108840008E1B6978A98FE3109D3108" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "71BD38DD-1543-4A66-835A-254108FEE5C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BB509A5AC3BB19428B3D7CE8B1377B5BF7C337CD" : "topsecCmp6666\/",
+    "de263d80-b747-40a5-82ab-79ab73532f30++587" : "svn_ios\/",
+    "C3E26F795A108840008E1B6978A98FE3109D3108" : "ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TopsecSecurityCloudIOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TopsecSecurityCloudIOS\/TopsecSecurityCloudIOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/topsecChina\/topsecCmp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BB509A5AC3BB19428B3D7CE8B1377B5BF7C337CD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.77.93\/svn\/TSC",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3E26F795A108840008E1B6978A98FE3109D3108"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.77.93\/svn\/TSC",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "de263d80-b747-40a5-82ab-79ab73532f30++587"
+    }
+  ]
+}

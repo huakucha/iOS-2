@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Parscell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Parscell" rowHeight="92" id="HnN-jz-AF0" customClass="Parscell">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HnN-jz-AF0" id="jkk-GB-wFi">
+                <frame key="frameInset" width="363" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Egp-2S-0LG">
+                        <color key="backgroundColor" red="1" green="0.39596372533775948" blue="0.23809992465738572" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Rz-ee-9l1">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVe-uU-1zP">
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qC3-QW-esY">
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dne-E2-Wbb">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="G4f-Fy-u7q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="leading" secondItem="Egp-2S-0LG" secondAttribute="trailing" constant="16" id="32g-Lc-rHF"/>
+                    <constraint firstItem="Egp-2S-0LG" firstAttribute="leading" secondItem="jkk-GB-wFi" secondAttribute="leadingMargin" id="475-1x-uFH"/>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="trailing" secondItem="5Rz-ee-9l1" secondAttribute="trailing" constant="-16" id="4e3-Kq-u6H"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Dne-E2-Wbb" secondAttribute="bottom" constant="9.5" id="6zB-QS-yH0"/>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="leading" secondItem="5Rz-ee-9l1" secondAttribute="leading" id="AmX-Q2-ArY"/>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="bottom" secondItem="Egp-2S-0LG" secondAttribute="bottom" constant="2.5" id="EZT-sc-4ep"/>
+                    <constraint firstItem="qC3-QW-esY" firstAttribute="top" secondItem="HVe-uU-1zP" secondAttribute="bottom" constant="12" id="Ee0-Ce-dIY"/>
+                    <constraint firstItem="Egp-2S-0LG" firstAttribute="top" secondItem="HVe-uU-1zP" secondAttribute="top" id="FAK-dv-jmK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="HVe-uU-1zP" secondAttribute="trailing" constant="-15" id="Hkk-5Q-QvI"/>
+                    <constraint firstItem="HVe-uU-1zP" firstAttribute="trailing" secondItem="qC3-QW-esY" secondAttribute="trailing" id="Jat-jC-hzn"/>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="centerY" secondItem="qC3-QW-esY" secondAttribute="centerY" constant="2.5" id="NBE-U2-yUI"/>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="firstBaseline" secondItem="qC3-QW-esY" secondAttribute="firstBaseline" constant="2.5" id="OO6-B5-KEa"/>
+                    <constraint firstItem="Egp-2S-0LG" firstAttribute="centerY" secondItem="jkk-GB-wFi" secondAttribute="centerY" id="Yg9-pn-qI9"/>
+                    <constraint firstItem="qC3-QW-esY" firstAttribute="leading" secondItem="Dne-E2-Wbb" secondAttribute="trailing" constant="15" id="Zk3-YG-Wfw"/>
+                    <constraint firstItem="HVe-uU-1zP" firstAttribute="leading" secondItem="qC3-QW-esY" secondAttribute="leading" id="bCh-zq-C91"/>
+                    <constraint firstItem="Egp-2S-0LG" firstAttribute="top" secondItem="5Rz-ee-9l1" secondAttribute="top" id="bRZ-cD-oy8"/>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="centerX" secondItem="jkk-GB-wFi" secondAttribute="centerX" constant="-0.5" id="od6-iL-BiL"/>
+                    <constraint firstItem="HVe-uU-1zP" firstAttribute="baseline" secondItem="5Rz-ee-9l1" secondAttribute="firstBaseline" id="uQu-wx-QuR"/>
+                    <constraint firstItem="Dne-E2-Wbb" firstAttribute="top" secondItem="5Rz-ee-9l1" secondAttribute="bottom" constant="-7" id="xcs-z9-Ps8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="AddrssLable" destination="Dne-E2-Wbb" id="fX7-ys-16m"/>
+                <outlet property="BeforLable" destination="qC3-QW-esY" id="HNB-Lp-MlE"/>
+                <outlet property="IconImage" destination="Egp-2S-0LG" id="prX-Fw-VEP"/>
+                <outlet property="TaskidLabel" destination="5Rz-ee-9l1" id="mUq-zD-wn6"/>
+                <outlet property="TimeLable" destination="HVe-uU-1zP" id="WoO-uW-kaz"/>
+            </connections>
+            <point key="canvasLocation" x="2.5" y="5"/>
+        </tableViewCell>
+    </objects>
+</document>

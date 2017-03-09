@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+message TopsecMobileMessage{
+
+    int32 version = 1;
+    sint32 type = 2;
+
+    string mobileId = 3;//手机唯一标示 代表哪个手机发送的
+    string mobileToken = 4;
+	
+    string whereServer = 5;//请求哪个平台
+	string whereport = 6;  //请求哪个接口
+    bytes binaryContent = 7;
+}
+
+message TopsecServerMessage{
+
+    int32 version = 101;
+    sint32 type = 102;
+    string mobileId = 103;//手机唯一标示 代表哪个手机发送的
+	string whereport = 104;  //请求哪个接口
+    bytes binaryContent = 105;
+}

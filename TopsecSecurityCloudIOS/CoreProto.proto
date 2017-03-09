@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+
+option java_package = "com.topsec.mbp.backproto";
+
+option java_outer_classname = "CoreProto";
+
+message MobileMessage{
+
+    int32 version = 1;
+    sint32 type = 2;
+
+    string mobileId = 3;
+    string mobileToken = 4;
+
+    repeated google.protobuf.Any payload = 100;
+}
+
+message ServerMessage{
+
+    int32 version = 1;
+    sint32 type = 2;
+
+    repeated google.protobuf.Any payload = 100;
+}

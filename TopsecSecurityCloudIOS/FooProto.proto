@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+message FooUuid{
+    string uuid = 1;
+}
+
+message FooMessage1{
+    FooUuid uuid = 1;
+    string username = 2;
+    string password = 3;
+    Sex sex = 4;
+    bytes photo = 5;
+
+    enum Sex{
+        man = 0;
+        woman = 1;
+    }
+}
+
+message FooMessage2{
+    FooUuid uuid = 1;
+    string  html = 2;
+}

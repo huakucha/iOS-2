@@ -1,0 +1,98 @@
+    syntax = "proto3";
+
+    //登录请求
+    message CmpPhoneLoginRequest{
+    string phoneDeviceId =1 ;
+    string loginName =2 ;
+    string loginPassword =3 ;
+
+    }
+    //登录返回
+    message CmpServerLoginResponse{
+    string tokenId = 401;
+	string phonegtg = 402;
+	string topuuid =  403;
+	string topusername = 404;
+	string toppassword = 405;
+	string topcname    = 406;
+	string topsex      = 407;
+	string topidcard  = 408;
+	string toptel      = 409;
+	string topdeptid  = 4001;
+	string topemail    = 4002;
+	string topstatus   = 4003;
+	string topremark   = 4004;
+	string topfirstflag = 4005;
+	string topusertype   = 4006;
+
+    }
+
+    //首页请求
+    message CmpPhoneHomeRequest{
+    string token =5;
+    string taskType=6;
+    int32  pageIndex = 7;
+    int32  PageSize=8;
+    string taskName=9;
+    }
+
+    //首页返回
+    message CmpServerHomeResponse{
+      bool success = 10;
+	  int32  dataTotal= 11;
+	  int32  pageSize = 12;
+	  int32  pageIndex = 13;
+	  int32  endIndex  = 14;
+	  int32  pageTotal = 15;	  
+      HomeFamily homefamily= 16;
+    }
+	
+	//首页返回数组
+	message HometaskItem{
+	
+	 string uuid=101;
+	 string taskName = 102;
+	 string target   = 103;
+	 string taskStatus = 104;
+	}
+	message HomeFamily{
+	 repeated  HometaskItem hometaskitem = 1;
+	}
+	
+	//新闻资讯请求
+	message NewsPhoneRequest{
+	 string phonegtg      = 17;
+	 string phoneNewType  = 18;
+	 int32  phonePageNo   = 19;
+	 int32  phonePageSize = 20;
+	
+	}
+	
+	message NewsServerPhoneResponse{
+	string  newsResult = 21;
+	NewsHomefamily newshomefamily = 32;
+	}
+	//新闻资讯 数组
+	message NewstaskItem{
+	int32    pkid    = 22;
+	int32    id      = 23;
+	string   title   = 24;
+	string   author  = 25;
+	string   sortdate = 26;
+	string   path    = 27;
+	int32   toplevel = 28;
+	string  typepath = 29;
+	string   uuid    = 30;
+	}
+	message NewsHomefamily{
+	  repeated NewstaskItem  newstaskitem = 1;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
